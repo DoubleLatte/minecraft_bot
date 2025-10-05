@@ -4,3 +4,9 @@ token: "봇 토큰"
 
 administrator_role_ids:
   - 관리자 역활 id
+
+# 마인크래프트 RCON 설정
+minecraft_rcon:
+  host: "localhost"  # 마인크래프트 서버 주소
+  port: 25575        # RCON 포트 (기본값: 25575)
+  password: "your_rcon_password"  # RCON 비밀번호
